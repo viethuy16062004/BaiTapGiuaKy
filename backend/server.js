@@ -30,9 +30,9 @@ app.get('/health', (req, res) => {
 // Student info API
 app.get('/api/student', (req, res) => {
   res.json({
-    name: 'Nguyễn Văn A',
-    student_id: '20211234',
-    class: 'IT-01',
+    name: 'Trần Việt Huy',
+    student_id: '2251220239',
+    class: '22 CT5',
     appName: process.env.APP_NAME || 'BaiTapGiuaKy'
   });
 });
